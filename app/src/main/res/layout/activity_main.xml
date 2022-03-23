@@ -15,7 +15,7 @@
         android:layout_marginTop="96dp"
         android:layout_marginEnd="148dp"
         android:layout_marginBottom="616dp"
-        android:text="ดอกไม้ที่อยู่ได้นาน"
+        android:text="OSI Layer มีทั้งหมดกี่ Layer"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,7 +32,7 @@
         android:layout_marginTop="55dp"
         android:layout_marginEnd="150dp"
         android:layout_marginBottom="19dp"
-        android:text="ดอกกุหลาบ"
+        android:text="5 Layer"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,21 +46,21 @@
         android:layout_marginTop="19dp"
         android:layout_marginEnd="146dp"
         android:layout_marginBottom="28dp"
-        android:text="ดอกดาวเรือง"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        android:text="6 Layer"
+        app:layout_constraintBottom_toTopOf="@+id/button33"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="147dp"
         android:layout_marginTop="19dp"
         android:layout_marginEnd="147dp"
         android:layout_marginBottom="13dp"
-        android:text="ดอกคัดเตอร์"
+        android:text="7 Layer"
         app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -74,10 +74,10 @@
         android:layout_marginTop="1dp"
         android:layout_marginEnd="150dp"
         android:layout_marginBottom="264dp"
-        android:text="ดอกหน้างัว"
+        android:text="8 Layer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/button33" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
